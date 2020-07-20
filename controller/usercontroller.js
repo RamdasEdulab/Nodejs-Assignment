@@ -40,7 +40,7 @@ router.get("/:number", function (req, res) {
 })
 
 function prime_number(number){
-for (var counter = 0; counter <= number; counter++) {
+for (var counter = 2; counter <= number; counter++) {
 
   var notPrime = false;
   for (var i = 2; i <= number; i++) {
